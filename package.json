@@ -5,15 +5,16 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "wxt",
-    "dev:firefox": "wxt -b firefox",
-    "build": "wxt build",
+    "dev": "wxt -b firefox",
+    "build": "wxt build -b firefox",
     "build:firefox": "wxt build -b firefox",
     "zip": "wxt zip",
     "zip:firefox": "wxt zip -b firefox",
     "compile": "tsc --noEmit",
     "postinstall": "wxt prepare",
-    "test": "vitest run"
+    "test": "vitest run",
+    "dev:edge": "wxt -b edge",
+    "build:edge": "wxt build -b edge"
   },
   "dependencies": {
     "@turf/bbox": "^7.4.0",

@@ -21,8 +21,8 @@ Log in to Facebook once in the dev profile. Browse Marketplace, then click the t
 | `pnpm dev` | Run in Firefox with hot reload |
 | `pnpm test` | Unit tests |
 | `pnpm compile` | Typecheck |
-| `pnpm build` / `pnpm build:firefox` | Production build |
-| `pnpm exec wxt build -b edge` | Edge build |
+| `pnpm build` | Firefox production build |
+| `pnpm build:edge` | Edge production build |
 | `node scripts/build-gazetteer.mjs` | Rebuild the offline city list |
 
 ## Layout
