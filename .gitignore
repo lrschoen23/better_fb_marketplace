@@ -1,0 +1,17 @@
+node_modules
+.output
+.wxt
+stats.html
+*.log
+
+# Local dev-profile path
+web-ext.config.ts
+
+# Real captured listing data
+*.fixture.json
+fixtures/private/
+
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
